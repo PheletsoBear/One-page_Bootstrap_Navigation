@@ -1,0 +1,56 @@
+// Introduction
+
+1) It responsivge with 12 columns grid
+2)Pre-build components
+3)Mobile first and colapse for huge screen
+  
+  //Functionality
+  
+ 1) Any altercation is done within the tags using the class
+ 2)Uses the principle of creating tables in html using columns and rows
+ 3) if you want to create a auto set column use
+   syntax:
+
+    <div class ="col"></div>
+    
+    //automatically bootstrap sets up the width (with gutters)
+    
+   4)If you want to specify the width of each column 
+     Syntax:
+     
+    <div class ="col-4"></div>
+    //this means that the column takes up 4/12 of the width
+    
+   5) Col-sm -> refers to the width of the small devices which is similar to media queries ie. @media screen and (max-width: 480px)
+
+     syntax:
+     <div class ="col-sm"></div>       
+  
+  
+  
+       In general:
+       
+       
+       
+ - "col-xs": Extra small devices (phones). The column width is automatically set to occupy the entire width of the viewport.
+
+ -"col-sm": Small devices (tablets). 
+            The column width adjusts to occupy a specific portion of the viewport, typically 1/12th,  2/12th, 3/12th, 
+            and so on.
+
+-"col-md": Medium devices (laptops and desktops). 
+           The column width adjusts to occupy a specific portion of the viewport, typically 1/12th, 2/12th, 3/12th, and so on.
+
+-"col-lg": Large devices (large desktops). 
+          The column width adjusts to occupy a specific portion of the viewport, typically 1/12th, 2/12th, 3/12th, and so on.
+          
+              
+6) Gutters -> It is similar to the CSS padding.
+
+ default is 24px
+   Syntax:
+   
+   
+ 
+
+
